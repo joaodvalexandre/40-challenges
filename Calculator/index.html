@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <!-- Calculator -->
+        <div>
+            <h1>Calculator</h1>
+        </div>
+        <div class="calculator-body">
+            <!--Display-->
+            <div class="display">
+                <input id="display" name="display" value="" disabled>
+            </div>
+            <!--Button layer 1-->
+            <div>
+                <button onclick="addValue('7')">7</button>
+                <button onclick="addValue('8')">8</button>
+                <button onclick="addValue('9')">9</button>
+                <button onclick="addSymbol('/')">/</button>
+            </div>
+            <!--Button layer 2-->
+            <div>
+                <button onclick="addValue('4')">4</button>
+                <button onclick="addValue('5')">5</button>
+                <button onclick="addValue('6')">6</button>
+                <button onclick="addSymbol('x')">x</button>
+            </div>
+            <!--Button layer 3-->
+            <div>
+                <button onclick="addValue('1')">1</button>
+                <button onclick="addValue('2')">2</button>
+                <button onclick="addValue('3')">3</button>
+                <button onclick="addSymbol('-')">-</button>
+            </div>
+            <!--Button layer 4-->
+            <div>
+                <button onclick="clearInput()">C</button>
+                <button onclick="addValue('0')">0</button>
+                <button onclick="addValue('.')">.</button>
+                <button onclick="addSymbol('+')">+</button>
+            </div>
+            <!--Equals-->
+            <div class="one-button">
+                <button onclick="getResult()">=</button>
+            </div>
+        </div>
+    </body>
+</html>

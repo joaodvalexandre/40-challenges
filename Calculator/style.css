@@ -1,0 +1,32 @@
+/* Styling goes in here */
+button, input, html {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 32px;
+}
+
+.display > input {
+    width: 450px;
+    height: 100px;
+    text-align: right;
+    margin-bottom: 5px;
+}
+
+button {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    padding: 0;
+}
+
+.calculator-body {
+    text-align: center;
+}
+
+h1 {
+    font-size: 42px;
+    text-align: center;
+}
+
+.one-button > button {
+    width: 456px;
+}
