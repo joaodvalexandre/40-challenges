@@ -4,12 +4,14 @@ function addValue(input) {
     arr = comma.split(',');
     last_value = $(arr).get(-1);
 
-    if(input == '.' && last_value.indexOf('.') > -1)
-        return;
-    else if (input == '.' && last_value == '')
-        inputValue(value+'0', input)
-    else
-        inputValue(value, input)
+    if((input == 0 && (Number(last_value) != 0 || last_value.includes('.'))) || input != 0){
+        if(input == '.' && last_value.indexOf('.') > -1)
+            return;
+        else if (input == '.' && last_value == '')
+            inputValue(value+'0', input)
+        else
+            inputValue(value, input)
+    }
 }
 
 function addSymbol(input) {
@@ -38,9 +40,8 @@ function inputValue(value, input){
 
 // Finish function to be able to acquire the symbols, and calculate the total inputted in the field
 function getResult() {
-    value = $('#display').val();
-    comma = value.split('+').join(',').split('-').join(',').split('x').join(',').split('/').join(',');
-    arr = comma.split(',');
+    value = $('#display').val()
+    result = eval(value.split('x').join('*'))
     
-    console.log(arr);
+    $('#display').val(result)
 }
