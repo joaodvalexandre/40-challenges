@@ -1,0 +1,83 @@
+[
+    {
+        "question":         "What is the world's longest river called?",
+        "answer_correct":   "Amazon",
+        "answer_1":         "Nile",
+        "answer_2":         "Congo",
+        "answer_3":         "Niger",
+        "difficulty":       1,
+        "has_answered":     0
+    },
+    {
+        "question":         "Which city hosted the Summer Olympics in 2012",
+        "answer_correct":   "London",
+        "answer_1":         "Lisbon",
+        "answer_2":         "Tokyo",
+        "answer_3":         "Kiev",
+        "difficulty":       1,
+        "has_answered":     0
+    },
+    {
+        "question":         "Which country gifted the Statue of Liberty to the US?",
+        "answer_correct":   "France",
+        "answer_1":         "Italy",
+        "answer_2":         "Germany",
+        "answer_3":         "Japan",
+        "difficulty":       1,
+        "has_answered":     0
+    },
+    {
+        "question":         "What sport does Cristiano Ronaldo play?",
+        "answer_correct":   "Football",
+        "answer_1":         "Rugby",
+        "answer_2":         "Golf",
+        "answer_3":         "Basketball",
+        "difficulty":       1,
+        "has_answered":     0
+    },
+    {
+        "question":         "What is the name of the actor who played Jack in Titanic?",
+        "answer_correct":   "Leonardo DiCaprio",
+        "answer_1":         "Johnny Depp",
+        "answer_2":         "Robert De Niro",
+        "answer_3":         "Brad Pitt",
+        "difficulty":       1,
+        "has_answered":     0
+    },
+    {
+        "question":         "Steve Harvey is a game show host. What's that show called?",
+        "answer_correct":   "Family Feud",
+        "answer_1":         "Who wants to be a Millionaire",
+        "answer_2":         "Wheel of Fortune",
+        "answer_3":         "The Price is Right",
+        "difficulty":       1,
+        "has_answered":     0
+    },
+    {
+        "question":         "What is the name of the character that Johnny Depp plays in Pirates of the Caribbean?",
+        "answer_correct":   "Captain Jack Sparrow",
+        "answer_1":         "Edward Scissorhands",
+        "answer_2":         "Willy Wonka",
+        "answer_3":         "Hatter",
+        "difficulty":       1,
+        "has_answered":     0
+    },
+    {
+        "question":         "Which bird is often associated with delivering babies?",
+        "answer_correct":   "A stork",
+        "answer_1":         "A pidgeon",
+        "answer_2":         "A swan",
+        "answer_3":         "A kiwi",
+        "difficulty":       1,
+        "has_answered":     0
+    },
+    {
+        "question":         "What is the name of the 1993 movie about dinosaurs?",
+        "answer_correct":   "Jurassic Park",
+        "answer_1":         "Mrs. Doubtfire",
+        "answer_2":         "Groundhog Day",
+        "answer_3":         "Robocop 3",
+        "difficulty":       1,
+        "has_answered":     0
+    }
+]

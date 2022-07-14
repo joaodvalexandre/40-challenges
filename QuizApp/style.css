@@ -1,0 +1,120 @@
+/* Styling goes in here */
+button, input, html {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 32px;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+h1 {
+    font-size: 42px;
+    text-align: center;
+}
+
+button {
+    width: 500px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.quiz-body {
+    text-align: center;
+}
+
+/* Menu Styling */
+.how-to {
+    display: none;
+    font-size: 18px;
+    margin: auto;
+    width: 500px;
+    padding: 10px;
+    text-align: center;
+}
+
+.example_questionare {
+    background-color: rgb(86, 86, 255);
+    border: 2px solid black;
+}
+
+.header_example {
+    border: 1px solid black;
+    border-radius: 25px;
+    width: 495px;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: blue;
+    color: white;
+}
+
+.answer_example,
+.correct,
+.wrong {
+    border: 1px solid black;
+    border-radius: 25px;
+    width: 495px;
+    text-align: center;
+    margin-top: 25px;
+    background-color: blue;
+    color: white;
+}
+
+.answer_example:hover {
+    background-color: aqua;
+    cursor: pointer;
+}
+
+/* Game Styling */
+.game {
+    display: none;
+    font-size: 24px;
+    margin: auto;
+    width: 750px;
+    padding: 10px;
+    text-align: center;
+}
+
+.questionnaire {
+    background-color: rgb(86, 86, 255);
+    border: 2px solid black;
+    height: 650px;
+}
+
+.answer {
+    border: 1px solid black;
+    border-radius: 25px;
+    width: 323px;
+    text-align: center;
+          /*top right bottom left*/
+    margin: 24px 24px 24px 24px;
+    background-color: blue;
+    color: white;
+    float: left;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    height: 60px;
+}
+
+.answer:hover {
+    background-color: aqua;
+    cursor: pointer;
+}
+
+.question {
+    border: 1px solid black;
+    border-radius: 25px;
+    width: 700px;
+    text-align: center;
+    margin: 20px auto 20px auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: blue;
+    color: white;
+}

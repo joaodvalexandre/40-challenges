@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Quiz App</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="script_menu.js"></script>
+    </head>
+    <body>
+        <!-- Quiz App -->
+        <div>
+            <h1>Quiz App</h1>
+        </div>
+        <div class="quiz-body">
+            <a href="questionnaire.html"><button>Start Game</button></a><br>
+            <button onclick="showHow()">How to Play</button>
+        </div>
+        <!-- How to Screen -->
+        <div class="how-to">
+            <div>
+                This is just a simple question, and answer game, where you get the question the at the top, then you must select one of the 4 possible answers.<br>
+            </div>
+            <div class="example_questionare">
+                <div class="header_example">What is ...?</div>
+                <div class="answer_example">Answer 1</div>
+                <div class="answer_example">Answer 2</div>
+                <div class="answer_example">Answer 3</div>
+                <div class="answer_example">Answer 4</div>
+            </div>
+            <br>
+            <div>
+                After selecting the answer you think is correct, it will flash yellow for a few seconds (À la Who wants to be a Millionaire<sup>c</sup>, to create suspense), then it will present a green color if correct.<br>
+                <div>
+                    <div class="correct" onmouseover="changeColor('.correct', 'green')">Answer Correct</div>
+                </div>
+                <br>
+                If the answer is not the correct one, it will present a red color, and you will lose the game.
+                <div>
+                    <div class="wrong" onmouseover="changeColor('.wrong', 'red')">Answer Wrong</div>
+                </div>
+            </div>
+            <br>
+            <div>
+                You win after answering all 15 questions correctly.<br>
+                The prize? A kiss on the cheek. 😘
+            </div>
+        </div>
+    </body>
+</html>
